@@ -1,0 +1,25 @@
+# Binaries
+deserhunter
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test results
+*.json
+*.sarif
+report.json
+results.sarif
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Go
+vendor/
+go.sum
